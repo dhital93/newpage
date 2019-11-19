@@ -1,0 +1,244 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+@media(min-width:600px){
+.title,
+.searchbar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.title h2 {
+  font-family: "Dancing Script", cursive;
+}
+.headerFooter {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.footer1,
+.footer2 {
+  padding: 20px 20px 0 0;
+  text-decoration: none;
+}
+.searchbar input {
+  width: 80%;
+  border-radius: 20px;
+  padding: 10px;
+  outline: none;
+  background-color: #f0f5f5;
+  border: none;
+  height: 20px;
+}
+nav {
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  color: white;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  margin: 20px;
+  list-style: none;
+  margin-top: 15px;
+}
+.main {
+  width: 70%;
+  margin: 0 10% 0 20%;
+  height: 600px;
+  background-image: url(prabin.jpg);
+  background-position: cover;
+  background-repeat: no-repeat;
+}
+.parent {
+  position: absolute;
+  margin-left: 100px;
+  margin-top: 100px;
+  width: 50%;
+  color:white;
+}
+.parent h1{
+  color: black;
+}
+.parenet p{
+  font-size: 40px;
+}
+.parent button {
+  border-radius: 20px;
+  height: 40px;
+  padding: 10px;
+  border: 5px white;
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  font-weight: bold;
+}
+.parent button:hover {
+  background-color: white;
+  color: black;
+}
+.update {
+  display: flex;
+}
+.one,
+.two,
+.three {
+  display: flex;
+  width: 33.33%;
+}
+img {
+  margin: 10px 15px 0 5px;
+}
+footer {
+  background-color: black;
+  color: white;
+}
+.footerN {
+  display: flex;
+  justify-content: center;
+}
+.footerContainer {
+  display: flex;
+  margin-left: 10%;
+}
+.footerDivOne {
+  width: 40%;
+}
+.list {
+  display: flex;
+}
+.one:hover {
+  background-color: black;
+  color: white;
+}
+.two:hover {
+  background-color: black;
+  color: white;
+}
+.three:hover {
+  background-color: black;
+  color: white;
+}
+}
+@media(max-width:599px){
+  .title,
+  .searchbar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .title h2 {
+    font-family: "Dancing Script", cursive;
+  }
+  .headerFooter {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .footer1,
+  .footer2 {
+    padding: 20px 20px 0 0;
+    text-decoration: none;
+  }
+  .searchbar input {
+    width: 80%;
+    border-radius: 20px;
+    padding: 10px;
+    outline: none;
+    background-color: #f0f5f5;
+    border: none;
+    height: 20px;
+  }
+  nav {
+    width: 100%;
+    
+    background-color: black;
+    color: white;
+  }
+  nav ul {
+    display: inline;
+    align-items: center;
+    text-align: center;
+  }
+  nav ul li {
+    margin: 20px;
+    list-style: none;
+    margin-top: 15px;
+  }
+  .main {
+    width: 100%;
+    
+    height: 600px;
+    background-image: url(prabin.jpg);
+    background-position: cover;
+    background-repeat: no-repeat;
+  }
+  .parent {
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 100px;
+    width: 40%;
+    color: #80b3ff;
+  }
+  .parent button {
+    border-radius: 20px;
+    height: 40px;
+    padding: 10px;
+    border: 5px white;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    font-weight: bold;
+  }
+  .parent button:hover {
+    background-color: white;
+    color: black;
+  }
+  .update {
+    display: inline;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+  .one,
+  .two,
+  .three {
+    display: flex;
+    width: 100%
+  }
+  img {
+    margin: 10px 15px 0 5px;
+  }
+  footer {
+    background-color: black;
+    color: white;
+  }
+  .footerN {
+    display: flex;
+    justify-content: center;
+  }
+  .footerContainer {
+    margin-left: 10%;
+    margin-bottom: 10px;
+  }
+  .footerDivOne {
+    width: 40%;
+  }
+  .list {
+    display: flex;
+  }
+  .one:hover {
+    background-color: black;
+    color: white;
+  }
+  .two:hover {
+    background-color: black;
+    color: white;
+  }
+  .three:hover {
+    background-color: black;
+    color: white;
+  }
+  }
